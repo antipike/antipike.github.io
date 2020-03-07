@@ -1,0 +1,16 @@
+body { background-color: black;
+color: white }
+
+.cabecalho {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+.minha-info {
+    background-color: turquoise;
+    flex-grow: 2;
+}
+.meuscontatos {
+    background-color: violet;
+    flex-grow: 1;
+}
