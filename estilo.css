@@ -28,7 +28,7 @@ main{
     flex: 1;
     align-items: center
 }
-.logo{
+.logo img{
     width: 100px;
     height: 100px;
     background-color: rgb(97, 159, 221);
@@ -39,7 +39,7 @@ main{
     
 }
 .logo p{
-    font-size: 42px;
+    font-size: 1px;
     color: rgb(8, 8, 8);
     margin-top: 0;
     margin-bottom: 10px;
@@ -62,12 +62,6 @@ main{
     align-items: flex-start;
 }
 
-.titulo-principal h4 {
-    font-size: 26px;
-    margin-left:  10px;
-
-}
-
 .titulo-principal i {background-color: rgb(97, 159, 221);
     width: 40px;
     height: 40px;
@@ -80,7 +74,7 @@ main{
 
 .profissional{
     flex:  3;
-    margin-left: 120px;
+    
 
 }
 
@@ -126,3 +120,12 @@ main{
     
 }
 
+p , ul{
+font-family: 'Viaoda Libre', cursive;
+}
+
+.textos h1,h2,h4{
+    font-family: 'Viaoda Libre', cursive;
+font-family: 'Libre Baskerville', serif;
+    
+}
