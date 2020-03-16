@@ -13,8 +13,11 @@ main {
     background-color: rgb(245, 239, 238);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+}
+
+.cabecalho {
+    border-bottom: solid darkturquoise;
 }
 
 .minha-info {
@@ -25,10 +28,8 @@ main {
 }
 
 .meuscontatos {
-    background-color: rgb(136, 54, 136);
+    background-color: rgb(242, 247, 246);
     flex: 1;
-    align-items: center;
-    width: 100%;
     height: 110px;
 }
 
@@ -53,7 +54,6 @@ main {
 }
 
 .textos {
-    display: flexbox;
     justify-content: flex-start;
 }
 
@@ -64,11 +64,12 @@ main {
 }
 
 .profissional-skill {
-    align-items: flex-start;
+    align-items: center;
+    margin-right: 30px;
 }
 
 .titulo-principal i {
-    background-color: rgb(97, 159, 221);
+    background-color: rgb(232, 235, 239);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -76,6 +77,10 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 10px;
+}
+
+.profissional-skill {
+    margin-right: 45px;
 }
 
 .profissional {
@@ -140,20 +145,28 @@ h4 {
 
 .iconestopo li {
     display: inline;
-    margin: 5px;
+    margin-top: 10x;
 }
 
 .iconestopo li a:visited {
     color: rgb(65, 60, 60);
 }
 
+.iconestopo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+
+}
 .formulario {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
 }
-
 .formulario div {
     display: flex;
     flex-direction: column;
@@ -161,7 +174,6 @@ h4 {
     color: #232527;
     font-size: 18px;
 }
-
 footer {
     background: #333333;
     color: #eee;
@@ -169,7 +181,6 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
 }
-
 .formulario button {
     background: #333333;
     color: #eee;
@@ -179,4 +190,23 @@ footer {
     border-radius: 5px;
     font-size: 18px;
     text-transform: uppercase;
+}
+.formulario {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 255px;
+}
+.formulario input {
+    border: 0;
+    background: #eee;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+}
+.formulario textarea {
+    border: 0;
+    background: #eee;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
 }
