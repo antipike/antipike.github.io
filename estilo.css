@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(245, 241, 241);
+    background-color: rgb(194, 194, 194);
     font-family: 'Ubuntu', sans-serif;
 }
 
 main {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -17,7 +17,8 @@ main {
 }
 
 .cabecalho {
-    border-bottom: solid darkturquoise;
+    border-bottom: solid rgb(40, 41, 41);
+    border-top: solid rgb(40, 41, 41);
 }
 
 .minha-info {
